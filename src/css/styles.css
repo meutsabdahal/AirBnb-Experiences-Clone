@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
 
 nav{
     position: absolute;
@@ -15,4 +17,43 @@ nav{
     height: 25.35px;
     left: 30px;
     top: 22px;
+}
+
+.grid--images{
+    position: absolute;
+    width: 500;
+    height: 422px;
+    left: 25%;
+    top: 96px;
+}
+
+h2{
+    position: absolute;
+    width: 347px;
+    height: 40px;
+    left: 36px;
+    top: 550px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+    color: #000000;
+}
+
+.online-experiences-desc{
+    position: absolute;
+    width: 320px;
+    height: 56px;
+    left: 36px;
+    top: 620px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+
+
+    color: #222222;
 }
