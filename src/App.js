@@ -6,6 +6,7 @@ import Card from './components/Card'
 import data from './data'
 
 function App() {
+    // mapping data to components
     const dataElements = data.map(datas => {
         return (
             <Card 
@@ -23,15 +24,9 @@ function App() {
       <>
       <NavBar />
       <Hero />
-      {/* <Card
-          img = {Katie}
-          rating = '5.0'
-          reviewCount = {6}
-          country = 'USA'
-          title = 'Life lessons with Katie Zaferes'
-          price = {136}
-      /> */}
-      {dataElements}
+      <section className='cards-list'>
+          {dataElements}
+      </section>
 
       </>
     )
