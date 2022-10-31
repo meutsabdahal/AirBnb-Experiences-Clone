@@ -11,7 +11,11 @@ function App() {
         return (
             <Card
                 key = {datas.id}
-                datas = {datas}
+                // passing object as prop
+                // datas = {datas}
+
+                // spreading object as prop
+                {...datas}
                 />
 
         )
