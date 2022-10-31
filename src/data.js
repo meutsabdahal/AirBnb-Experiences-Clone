@@ -39,7 +39,7 @@ export default[
         location: 'Norway',
         openSpots: 3
 
-    },
+    }
     
 
 ]

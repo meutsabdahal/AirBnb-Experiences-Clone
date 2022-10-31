@@ -9,7 +9,8 @@ function App() {
     // mapping data to components
     const dataElements = data.map(datas => {
         return (
-            <Card 
+            <Card
+                // key = {datas.id}
                 img = {datas.coverImg} 
                 rating = {datas.stats.rating}
                 reviewCount = {datas.stats.reviewCount} 
