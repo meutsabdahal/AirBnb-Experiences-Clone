@@ -10,13 +10,14 @@ function App() {
     const dataElements = data.map(datas => {
         return (
             <Card
-                // key = {datas.id}
+                key = {datas.id}
                 img = {datas.coverImg} 
                 rating = {datas.stats.rating}
                 reviewCount = {datas.stats.reviewCount} 
-                country = {datas.location} 
+                location = {datas.location} 
                 title = {datas.title} 
-                price = {datas.price} />
+                price = {datas.price}
+                openSpots = {datas.openSpots} />
 
         )
     })
